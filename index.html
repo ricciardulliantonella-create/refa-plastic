@@ -63,10 +63,14 @@
                linear-gradient(90deg,rgba(243,247,238,.96) 0%,rgba(243,247,238,.72) 40%,rgba(243,247,238,.2) 72%,rgba(243,247,238,0) 100%)}
   .hero .container{position:relative;z-index:2;padding-top:6.5rem}
   .hero-content{max-width:600px}
+  .hero-mobile-photo{display:none}
   @media(max-width:760px){
-    .hero{background-position:64% center}
-    .hero::after{background:linear-gradient(180deg,rgba(243,247,238,.94) 0%,rgba(243,247,238,.8) 100%)}
+    .hero{background:#f3f7ee;min-height:auto;padding-bottom:2rem}
+    .hero::after{display:none}
+    .hero .container{padding-top:5.5rem}
     .hero-content{max-width:100%}
+    .hero-mobile-photo{display:block;width:100%;border-radius:18px;margin-top:1.8rem;box-shadow:var(--sombra)}
+    .hero .wave{display:none}
   }
   .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:3rem;align-items:center}
   .hero h1{color:var(--verde-osc);font-size:clamp(2.1rem,4.8vw,3.4rem);margin-bottom:1.1rem}
@@ -263,6 +267,7 @@
         <span class="pill">🔥 <span data-i18n="pill4">Apto microondas</span></span>
       </div>
     </div>
+    <img class="hero-mobile-photo" src="images/hero-productos.jpg.jpeg" alt="Productos sostenibles Refa Plastic">
   </div>
   <svg class="wave" viewBox="0 0 1440 90" preserveAspectRatio="none"><path fill="#ffffff" d="M0,64L80,58.7C160,53,320,43,480,48C640,53,800,75,960,74.7C1120,75,1280,53,1360,42.7L1440,32L1440,90L0,90Z"></path></svg>
 </section>
