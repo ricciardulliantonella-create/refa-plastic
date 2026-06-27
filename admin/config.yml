@@ -1,0 +1,63 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+locale: "es"
+
+site_url: https://refaplastic.com
+display_url: https://refaplastic.com
+
+collections:
+  - name: "catalogo"
+    label: "Catálogo"
+    files:
+      - name: "catalog"
+        label: "Productos y categorías"
+        file: "catalog.json"
+        format: "json"
+        description: "Añade o edita los productos. Recuerda pulsar 'Publish' para que aparezcan en la web."
+        fields:
+          - label: "Categorías"
+            name: "categories"
+            widget: "list"
+            label_singular: "Categoría"
+            summary: "{{fields.label.es}}"
+            fields:
+              - { label: "ID (sin espacios)", name: "id", widget: "string", hint: "ej: vasos, envases, bolsas" }
+              - { label: "Icono (emoji)", name: "icon", widget: "string", required: false }
+              - label: "Nombre de la categoría"
+                name: "label"
+                widget: "object"
+                fields:
+                  - { label: "Español", name: "es", widget: "string" }
+                  - { label: "Italiano", name: "it", widget: "string", required: false }
+                  - { label: "Inglés", name: "en", widget: "string", required: false }
+
+          - label: "Productos"
+            name: "products"
+            widget: "list"
+            label_singular: "Producto"
+            summary: "{{fields.name.es}}"
+            fields:
+              - { label: "ID interno", name: "id", widget: "string", required: false, hint: "puedes dejar uno cualquiera, único" }
+              - { label: "Categoría (ID)", name: "category", widget: "string", hint: "escribe el ID de una categoría de arriba (ej: vasos)" }
+              - label: "Nombre del producto"
+                name: "name"
+                widget: "object"
+                fields:
+                  - { label: "Español", name: "es", widget: "string" }
+                  - { label: "Italiano", name: "it", widget: "string", required: false }
+                  - { label: "Inglés", name: "en", widget: "string", required: false }
+              - label: "Descripción"
+                name: "desc"
+                widget: "object"
+                fields:
+                  - { label: "Español", name: "es", widget: "text", required: false }
+                  - { label: "Italiano", name: "it", widget: "text", required: false }
+                  - { label: "Inglés", name: "en", widget: "text", required: false }
+              - { label: "Imagen / foto", name: "image", widget: "image", required: false, hint: "sube la foto del producto" }
+              - { label: "Precio (opcional)", name: "price", widget: "string", required: false }
+              - { label: "Mostrar en la web", name: "available", widget: "boolean", default: true }

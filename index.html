@@ -628,6 +628,24 @@
   try{const s=localStorage.getItem('refa_lang'); if(s) initLang=s;
     else{const b=(navigator.language||'es').slice(0,2); if(I18N[b]) initLang=b;}}catch(e){}
   setLang(initLang);
+
+  // Online: carga el catálogo publicado desde catalog.json (gestionado por el CMS).
+  // En local (file://) el fetch falla y se usa catalog.js como respaldo.
+  fetch('catalog.json',{cache:'no-store'})
+    .then(function(r){ return r.ok ? r.json() : null; })
+    .then(function(j){ if(j && j.products){ window.REFA_CATALOG=j; renderCatalog(); } })
+    .catch(function(){});
+</script>
+<!-- Netlify Identity: gestiona el acceso al panel /admin -->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", function(user){
+      if (!user) {
+        window.netlifyIdentity.on("login", function(){ document.location.href = "/admin/"; });
+      }
+    });
+  }
 </script>
 </body>
 </html>
