@@ -209,6 +209,23 @@
       },
       "image": "/images/uploads/31.png",
       "price": "€40,00"
+    },
+    {
+      "available": true,
+      "id": "0760",
+      "category": "vasos",
+      "name": {
+        "it": "Bicchiere in PP trasparente riciclabile e riutilizzabile da 330 ml (mezzo pinta) | 500 - 650 - 1250 pezzi/scatola",
+        "es": "Vaso de PP transparente reciclable y reutilizable de 330 ml (12 oz) (media pinta) | 500 - 650 - 1250 unidades/caja",
+        "en": "Recyclable and reusable transparent PP cup, 330 ml (12 oz) (half pint) | 500 - 650 - 1250 units/box"
+      },
+      "desc": {
+        "it": "Questo bicchiere trasparente da 325 ml (mezzo litro), realizzato in resistente plastica PP, offre una soluzione pratica, riciclabile e riutilizzabile per servire un'ampia varietà di bevande. Ideale per bar, caffetterie e servizi per eventi che apprezzano la qualità e la sostenibilità nel servizio delle bevande.",
+        "es": "Este vaso transparente de 325 ml (medio litro), fabricado en plástico PP resistente, ofrece una solución práctica, reciclable y reutilizable para servir una amplia variedad de bebidas. Ideal para bares, cafeterías y espacios para eventos que valoran la calidad y la sostenibilidad en el servicio de bebidas.",
+        "en": "This 325ml (half-liter) clear glass, made of durable PP plastic, offers a practical, recyclable, and reusable solution for serving a wide variety of beverages. Ideal for bars, cafes, and event venues that value quality and sustainability in beverage service."
+      },
+      "image": "/images/uploads/33.png",
+      "price": "€ 41,00"
     }
   ]
 }
