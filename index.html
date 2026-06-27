@@ -76,6 +76,7 @@
   .hero-stat{display:flex;align-items:center;gap:1rem}
   .hero-stat .num{font-size:1.9rem;font-weight:800;color:var(--verde)}
   .hero-stat .lbl{color:var(--gris);font-size:.92rem}
+  .hero-photo img{width:100%;height:auto;display:block;border-radius:24px;box-shadow:var(--sombra)}
   .wave{position:absolute;bottom:-1px;left:0;width:100%;z-index:1}
 
   section.block{padding:6rem 0}
@@ -260,10 +261,13 @@
           <span class="pill">🔥 <span data-i18n="pill4">Apto microondas</span></span>
         </div>
       </div>
-      <div class="hero-card reveal">
-        <div class="hero-stat"><span class="num">100%</span><span class="lbl" data-i18n="stat1">soluciones sostenibles</span></div>
-        <div class="hero-stat"><span class="num">3</span><span class="lbl" data-i18n="stat2">líneas: reciclable, reutilizable y compostable</span></div>
-        <div class="hero-stat"><span class="num">🖨️</span><span class="lbl" data-i18n="stat3">personalización con tu logo</span></div>
+      <div class="hero-photo reveal">
+        <img src="images/hero-productos.jpg" alt="Productos sostenibles Refa Plastic" onerror="this.style.display='none';document.getElementById('heroStats').style.display='grid'">
+        <div class="hero-card" id="heroStats" style="display:none">
+          <div class="hero-stat"><span class="num">100%</span><span class="lbl" data-i18n="stat1">soluciones sostenibles</span></div>
+          <div class="hero-stat"><span class="num">3</span><span class="lbl" data-i18n="stat2">líneas: reciclable, reutilizable y compostable</span></div>
+          <div class="hero-stat"><span class="num">🖨️</span><span class="lbl" data-i18n="stat3">personalización con tu logo</span></div>
+        </div>
       </div>
     </div>
   </div>
