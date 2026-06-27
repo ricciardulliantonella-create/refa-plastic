@@ -1,43 +1,163 @@
 {
   "updated": "2026-06-27",
   "categories": [
-    { "id": "vasos",       "icon": "🥤", "label": { "es": "Vasos y tapas",            "it": "Bicchieri e coperchi",         "en": "Cups & lids" } },
-    { "id": "envases",     "icon": "🥡", "label": { "es": "Envases y food packaging",  "it": "Contenitori e food packaging", "en": "Containers & food packaging" } },
-    { "id": "bolsas",      "icon": "🛍️", "label": { "es": "Bolsas",                    "it": "Sacchetti",                    "en": "Bags" } },
-    { "id": "menaje",      "icon": "🍴", "label": { "es": "Menaje y cubiertos",        "it": "Stoviglie e posate",           "en": "Tableware & cutlery" } },
-    { "id": "servilletas", "icon": "🧻", "label": { "es": "Servilletas y papel",       "it": "Tovaglioli e carta",           "en": "Napkins & paper" } },
-    { "id": "compostable", "icon": "🌱", "label": { "es": "Línea compostable",         "it": "Linea compostabile",           "en": "Compostable line" } }
+    {
+      "id": "vasos",
+      "icon": "🥤",
+      "label": {
+        "es": "Vasos y tapas",
+        "it": "Bicchieri e coperchi",
+        "en": "Cups & lids"
+      }
+    },
+    {
+      "id": "envases",
+      "icon": "🥡",
+      "label": {
+        "es": "Envases y food packaging",
+        "it": "Contenitori e food packaging",
+        "en": "Containers & food packaging"
+      }
+    },
+    {
+      "id": "bolsas",
+      "icon": "🛍️",
+      "label": {
+        "es": "Bolsas",
+        "it": "Sacchetti",
+        "en": "Bags"
+      }
+    },
+    {
+      "id": "menaje",
+      "icon": "🍴",
+      "label": {
+        "es": "Menaje y cubiertos",
+        "it": "Stoviglie e posate",
+        "en": "Tableware & cutlery"
+      }
+    },
+    {
+      "id": "servilletas",
+      "icon": "🧻",
+      "label": {
+        "es": "Servilletas y papel",
+        "it": "Tovaglioli e carta",
+        "en": "Napkins & paper"
+      }
+    },
+    {
+      "id": "compostable",
+      "icon": "🌱",
+      "label": {
+        "es": "Línea compostable",
+        "it": "Linea compostabile",
+        "en": "Compostable line"
+      }
+    }
   ],
   "products": [
-    { "id": "p1", "category": "vasos", "image": "", "price": "", "available": true,
-      "name": { "es": "Vasos y tapas", "it": "Bicchieri e coperchi", "en": "Cups & lids" },
-      "desc": { "es": "Vasos de cartón y plástico reciclable, con tapas, para bebidas frías y calientes.",
-                "it": "Bicchieri in cartone e plastica riciclabile, con coperchi, per bevande fredde e calde.",
-                "en": "Paper and recyclable plastic cups, with lids, for cold and hot drinks." } },
-    { "id": "p2", "category": "envases", "image": "", "price": "", "available": true,
-      "name": { "es": "Envases y food packaging", "it": "Contenitori e food packaging", "en": "Containers & food packaging" },
-      "desc": { "es": "Tarrinas, bandejas y cajas para take away y delivery, muchas aptas para microondas.",
-                "it": "Vaschette, vassoi e scatole per take away e delivery, molti adatti al microonde.",
-                "en": "Tubs, trays and boxes for take away and delivery, many microwave-safe." } },
-    { "id": "p3", "category": "bolsas", "image": "", "price": "", "available": true,
-      "name": { "es": "Bolsas", "it": "Sacchetti", "en": "Bags" },
-      "desc": { "es": "Bolsas de papel y soluciones de embalaje para delivery y comercio.",
-                "it": "Sacchetti di carta e soluzioni di imballaggio per delivery e commercio.",
-                "en": "Paper bags and packaging solutions for delivery and retail." } },
-    { "id": "p4", "category": "menaje", "image": "", "price": "", "available": true,
-      "name": { "es": "Menaje y cubiertos", "it": "Stoviglie e posate", "en": "Tableware & cutlery" },
-      "desc": { "es": "Platos, cubiertos de madera y menaje desechable sostenible para eventos.",
-                "it": "Piatti, posate in legno e stoviglie usa e getta sostenibili per eventi.",
-                "en": "Plates, wooden cutlery and sustainable disposable tableware for events." } },
-    { "id": "p5", "category": "servilletas", "image": "", "price": "", "available": true,
-      "name": { "es": "Servilletas y papel", "it": "Tovaglioli e carta", "en": "Napkins & paper" },
-      "desc": { "es": "Servilletas, papel y complementos para mesa y servicio.",
-                "it": "Tovaglioli, carta e complementi per la tavola e il servizio.",
-                "en": "Napkins, paper and table and service accessories." } },
-    { "id": "p6", "category": "compostable", "image": "", "price": "", "available": true,
-      "name": { "es": "Línea compostable", "it": "Linea compostabile", "en": "Compostable line" },
-      "desc": { "es": "Productos de origen vegetal, biodegradables y compostables para tu negocio.",
-                "it": "Prodotti di origine vegetale, biodegradabili e compostabili per la tua attività.",
-                "en": "Plant-based, biodegradable and compostable products for your business." } }
+    {
+      "id": "1001",
+      "category": "vasos",
+      "image": "/images/uploads/200.1.png",
+      "price": "€ 40,00",
+      "available": true,
+      "name": {
+        "es": "Vaso de PP transparente reciclable y reutilizable de 200 ml | 3000 unidades/caja",
+        "it": "Bicchiere in PP trasparente riciclabile e riutilizzabile da 200 ml | 3000 pezzi/scatola",
+        "en": "200ml Recyclable and Reusable Clear PP Cup | 3000 pcs/box"
+      },
+      "desc": {
+        "es": "El vaso transparente de PP de 200 ml ofrece una solución reciclable y reutilizable para servir agua y bebidas frías. Fabricado en polipropileno (PP), un material duradero conocido por su resistencia y capacidad para soportar múltiples usos, este vaso es ideal para bares, restaurantes y eventos que buscan opciones duraderas para el servicio de bebidas.",
+        "it": "Il bicchiere trasparente in PP da 200 ml offre una soluzione riciclabile e riutilizzabile per servire acqua e bevande fredde. Realizzato in polipropilene (PP), un materiale resistente noto per la sua robustezza e la capacità di sopportare molteplici utilizzi, questo bicchiere è ideale per bar, ristoranti ed eventi che cercano opzioni di servizio bevande durevoli.",
+        "en": "The 200ml clear PP cup offers a recyclable and reusable solution for serving water and cold drinks. Made of polypropylene (PP), a durable material known for its strength and ability to withstand multiple uses, this cup is ideal for bars, restaurants, and events seeking durable beverage service options."
+      }
+    },
+    {
+      "id": "p2",
+      "category": "envases",
+      "image": "",
+      "price": "",
+      "available": true,
+      "name": {
+        "es": "Envases y food packaging",
+        "it": "Contenitori e food packaging",
+        "en": "Containers & food packaging"
+      },
+      "desc": {
+        "es": "Tarrinas, bandejas y cajas para take away y delivery, muchas aptas para microondas.",
+        "it": "Vaschette, vassoi e scatole per take away e delivery, molti adatti al microonde.",
+        "en": "Tubs, trays and boxes for take away and delivery, many microwave-safe."
+      }
+    },
+    {
+      "id": "p3",
+      "category": "bolsas",
+      "image": "",
+      "price": "",
+      "available": true,
+      "name": {
+        "es": "Bolsas",
+        "it": "Sacchetti",
+        "en": "Bags"
+      },
+      "desc": {
+        "es": "Bolsas de papel y soluciones de embalaje para delivery y comercio.",
+        "it": "Sacchetti di carta e soluzioni di imballaggio per delivery e commercio.",
+        "en": "Paper bags and packaging solutions for delivery and retail."
+      }
+    },
+    {
+      "id": "p4",
+      "category": "menaje",
+      "image": "",
+      "price": "",
+      "available": true,
+      "name": {
+        "es": "Menaje y cubiertos",
+        "it": "Stoviglie e posate",
+        "en": "Tableware & cutlery"
+      },
+      "desc": {
+        "es": "Platos, cubiertos de madera y menaje desechable sostenible para eventos.",
+        "it": "Piatti, posate in legno e stoviglie usa e getta sostenibili per eventi.",
+        "en": "Plates, wooden cutlery and sustainable disposable tableware for events."
+      }
+    },
+    {
+      "id": "p5",
+      "category": "servilletas",
+      "image": "",
+      "price": "",
+      "available": true,
+      "name": {
+        "es": "Servilletas y papel",
+        "it": "Tovaglioli e carta",
+        "en": "Napkins & paper"
+      },
+      "desc": {
+        "es": "Servilletas, papel y complementos para mesa y servicio.",
+        "it": "Tovaglioli, carta e complementi per la tavola e il servizio.",
+        "en": "Napkins, paper and table and service accessories."
+      }
+    },
+    {
+      "id": "p6",
+      "category": "compostable",
+      "image": "",
+      "price": "",
+      "available": true,
+      "name": {
+        "es": "Línea compostable",
+        "it": "Linea compostabile",
+        "en": "Compostable line"
+      },
+      "desc": {
+        "es": "Productos de origen vegetal, biodegradables y compostables para tu negocio.",
+        "it": "Prodotti di origine vegetale, biodegradabili e compostabili per la tua attività.",
+        "en": "Plant-based, biodegradable and compostable products for your business."
+      }
+    }
   ]
 }
