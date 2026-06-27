@@ -226,6 +226,23 @@
       },
       "image": "/images/uploads/33.png",
       "price": "€ 41,00"
+    },
+    {
+      "available": true,
+      "id": "0684",
+      "category": "vasos",
+      "name": {
+        "it": "Bicchieri in PP - Trasparenti, riciclabili e riutilizzabili, da 610 ml | 800 pezzi/scatola",
+        "es": "Vasos de PP - Transparentes, reciclables y reutilizables, 610 ml | 800 unidades/caja",
+        "en": "PP Cups - Transparent, recyclable and reusable, 610 ml | 800 units/box"
+      },
+      "desc": {
+        "it": "Il bicchiere trasparente in PP da 610 ml (20 oz) offre una soluzione riciclabile e riutilizzabile per le attività commerciali che servono grandi quantità di bevande, come birre, cocktail e bibite analcoliche. Realizzato in polipropilene (PP) resistente, questo bicchiere è ideale per bar, ristoranti e servizi per eventi che cercano opzioni di bevande ecocompatibili e ad alta capacità.",
+        "es": "El vaso térmico transparente de PP de 610 ml (20 oz) ofrece una solución reciclable y reutilizable para negocios que sirven grandes cantidades de bebidas, como cerveza, cócteles y refrescos. Fabricado en polipropileno (PP) duradero, este vaso es ideal para bares, restaurantes y locales de eventos que buscan opciones de bebidas ecológicas y de gran capacidad.",
+        "en": "The 610 ml (20 oz) clear PP thermal tumbler offers a recyclable and reusable solution for businesses serving large quantities of beverages, such as beer, cocktails, and soft drinks. Made from durable polypropylene (PP), this tumbler is ideal for bars, restaurants, and event venues looking for eco-friendly, high-capacity beverage options."
+      },
+      "image": "/images/uploads/62.png",
+      "price": " 57,00€"
     }
   ]
 }
