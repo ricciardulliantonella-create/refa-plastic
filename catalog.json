@@ -158,6 +158,23 @@
         "it": "Prodotti di origine vegetale, biodegradabili e compostabili per la tua attività.",
         "en": "Plant-based, biodegradable and compostable products for your business."
       }
+    },
+    {
+      "available": true,
+      "id": "106659 ",
+      "category": "Bicchiere in PP trasparente, riciclabile e riutilizzabile, da 220 ml | 3000 pezzi/scatola",
+      "name": {
+        "it": "Bicchiere in PP trasparente, riciclabile e riutilizzabile, da 220 ml | 3000 pezzi/scatola",
+        "es": "Vaso de PP transparente de 220 ml, reciclable y reutilizable | 3000 unidades/caja",
+        "en": "220ml clear PP cup, recyclable and reusable | 3000 units/box"
+      },
+      "desc": {
+        "it": "Il bicchiere trasparente in PP da 220 ml offre una soluzione riciclabile e riutilizzabile per servire acqua e bevande fredde. Realizzato in polipropilene (PP), un materiale resistente noto per la sua robustezza e la capacità di sopportare molteplici utilizzi, questo bicchiere è ideale per bar, ristoranti ed eventi che cercano opzioni di servizio bevande durevoli.",
+        "es": "El vaso transparente de PP de 220 ml ofrece una solución reciclable y reutilizable para servir agua y bebidas frías. Fabricado en polipropileno (PP), un material duradero conocido por su resistencia y capacidad para soportar múltiples usos, este vaso es ideal para bares, restaurantes y eventos que buscan opciones duraderas para el servicio de bebidas.",
+        "en": "The 220ml clear PP cup offers a recyclable and reusable solution for serving water and cold drinks. Made from polypropylene (PP), a durable material known for its strength and ability to withstand multiple uses, this cup is ideal for bars, restaurants, and events seeking long-lasting beverage service options."
+      },
+      "image": "/images/uploads/221.png",
+      "price": "€ 45,00"
     }
   ]
 }
