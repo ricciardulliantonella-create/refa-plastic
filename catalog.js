@@ -1,0 +1,52 @@
+/* ============================================================
+   REFA PLASTIC — DATOS DEL CATÁLOGO (trilingüe ES / IT / EN)
+   ------------------------------------------------------------
+   Lo genera/actualiza la página de administración (admin.html).
+   Cada texto tiene 3 idiomas: { es, it, en }.
+   Si dejas un idioma vacío, la web usa el español como respaldo.
+   Para publicar: admin.html → "Publicar / Exportar catálogo" y
+   reemplaza este archivo en la carpeta del sitio.
+   ============================================================ */
+window.REFA_CATALOG = {
+  "updated": "2026-06-19",
+  "categories": [
+    { "id": "vasos",       "icon": "🥤", "label": { "es": "Vasos y tapas",            "it": "Bicchieri e coperchi",        "en": "Cups & lids" } },
+    { "id": "envases",     "icon": "🥡", "label": { "es": "Envases y food packaging",  "it": "Contenitori e food packaging","en": "Containers & food packaging" } },
+    { "id": "bolsas",      "icon": "🛍️", "label": { "es": "Bolsas",                    "it": "Sacchetti",                   "en": "Bags" } },
+    { "id": "menaje",      "icon": "🍴", "label": { "es": "Menaje y cubiertos",        "it": "Stoviglie e posate",          "en": "Tableware & cutlery" } },
+    { "id": "servilletas", "icon": "🧻", "label": { "es": "Servilletas y papel",       "it": "Tovaglioli e carta",          "en": "Napkins & paper" } },
+    { "id": "compostable", "icon": "🌱", "label": { "es": "Línea compostable",         "it": "Linea compostabile",          "en": "Compostable line" } }
+  ],
+  "products": [
+    { "id": "p1", "category": "vasos", "image": "", "price": "", "available": true,
+      "name": { "es": "Vasos y tapas", "it": "Bicchieri e coperchi", "en": "Cups & lids" },
+      "desc": { "es": "Vasos de cartón y plástico reciclable, con tapas, para bebidas frías y calientes.",
+                "it": "Bicchieri in cartone e plastica riciclabile, con coperchi, per bevande fredde e calde.",
+                "en": "Paper and recyclable plastic cups, with lids, for cold and hot drinks." } },
+    { "id": "p2", "category": "envases", "image": "", "price": "", "available": true,
+      "name": { "es": "Envases y food packaging", "it": "Contenitori e food packaging", "en": "Containers & food packaging" },
+      "desc": { "es": "Tarrinas, bandejas y cajas para take away y delivery, muchas aptas para microondas.",
+                "it": "Vaschette, vassoi e scatole per take away e delivery, molti adatti al microonde.",
+                "en": "Tubs, trays and boxes for take away and delivery, many microwave-safe." } },
+    { "id": "p3", "category": "bolsas", "image": "", "price": "", "available": true,
+      "name": { "es": "Bolsas", "it": "Sacchetti", "en": "Bags" },
+      "desc": { "es": "Bolsas de papel y soluciones de embalaje para delivery y comercio.",
+                "it": "Sacchetti di carta e soluzioni di imballaggio per delivery e commercio.",
+                "en": "Paper bags and packaging solutions for delivery and retail." } },
+    { "id": "p4", "category": "menaje", "image": "", "price": "", "available": true,
+      "name": { "es": "Menaje y cubiertos", "it": "Stoviglie e posate", "en": "Tableware & cutlery" },
+      "desc": { "es": "Platos, cubiertos de madera y menaje desechable sostenible para eventos.",
+                "it": "Piatti, posate in legno e stoviglie usa e getta sostenibili per eventi.",
+                "en": "Plates, wooden cutlery and sustainable disposable tableware for events." } },
+    { "id": "p5", "category": "servilletas", "image": "", "price": "", "available": true,
+      "name": { "es": "Servilletas y papel", "it": "Tovaglioli e carta", "en": "Napkins & paper" },
+      "desc": { "es": "Servilletas, papel y complementos para mesa y servicio.",
+                "it": "Tovaglioli, carta e complementi per la tavola e il servizio.",
+                "en": "Napkins, paper and table and service accessories." } },
+    { "id": "p6", "category": "compostable", "image": "", "price": "", "available": true,
+      "name": { "es": "Línea compostable", "it": "Linea compostabile", "en": "Compostable line" },
+      "desc": { "es": "Productos de origen vegetal, biodegradables y compostables para tu negocio.",
+                "it": "Prodotti di origine vegetale, biodegradabili e compostabili per la tua attività.",
+                "en": "Plant-based, biodegradable and compostable products for your business." } }
+  ]
+};
