@@ -57,11 +57,11 @@
     },
     {
       "label": {
-        "es": "vasos de fiesta",
-        "it": "bicchieri da festa",
-        "en": "party glasses"
+        "es": " VASO DE FIESTA",
+        "it": " BICCHIERE DA FESTA",
+        "en": " PARTY GLASSES"
       },
-      "id": "fiesta"
+      "id": "festa"
     },
     {
       "id": "bar ",
