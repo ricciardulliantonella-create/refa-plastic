@@ -607,6 +607,23 @@
       },
       "image": "/images/uploads/pb.jpg",
       "price": "€ 35,00"
+    },
+    {
+      "available": true,
+      "id": "105014",
+      "category": "platos",
+      "name": {
+        "it": "Piatti monouso riutilizzabili in plastica PS bianca, 165 mm | 450  unità/scatola",
+        "es": "Platos desechables reutilizables de plástico PS blanco, 165 mm | 450 unidades/caja",
+        "en": "Reusable disposable plates made of white PS plastic, 165 mm | 450 units/box"
+      },
+      "desc": {
+        "it": "Questo piatto riutilizzabile e riciclabile da 165 mm, realizzato in polistirene (PS) ad alta resistenza, è una soluzione pratica e sostenibile per eventi, feste, servizi di catering e attività di ristorazione. Grazie al suo design elegante e resistente, questo piatto è ideale per servire pasti in ambienti ad alta affluenza che cercano una soluzione duratura ed ecologica.",
+        "es": "Este plato reutilizable y reciclable de 165 mm, fabricado en poliestireno (PS) de alta resistencia, es una solución práctica y sostenible para eventos, fiestas, servicios de catering y negocios de restauración. Su diseño elegante y duradero lo hace ideal para servir comidas en entornos de mucho tránsito que buscan una solución duradera y ecológica.",
+        "en": "This reusable and recyclable 165mm plate, made from high-strength polystyrene (PS), is a practical and sustainable solution for events, parties, catering services, and restaurants. Its sleek and durable design makes it ideal for serving food in high-traffic environments seeking a long-lasting and eco-friendly solution."
+      },
+      "image": "/images/uploads/pp.jpg",
+      "price": "€ 20,00"
     }
   ]
 }
