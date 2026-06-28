@@ -514,6 +514,23 @@
       },
       "image": "/images/uploads/cup.jpg",
       "price": "€ 55,00"
+    },
+    {
+      "available": true,
+      "id": "101523",
+      "category": "vasos",
+      "name": {
+        "it": "Coperchio piatto riciclabile con croce per bicchieri in PP - 280/450/500/600 ml | 1000 pezzi/scatola",
+        "es": "Tapa plana reciclable con cruz para vasos de PP - 280/450/500/600 ml | 1000 unidades/caja",
+        "en": "Recyclable flat lid with cross for PP cups - 280/450/500/600 ml | 1000 units/box"
+      },
+      "desc": {
+        "it": "Coperchio piatto con foro a forma di X, realizzato in PET riciclabile. Ideale per bicchieri monouso da 280/450/500/600 ml, garantisce una chiusura ermetica per evitare fuoriuscite. Perfetto per bevande fredde da asporto, fast food, eventi e bar.",
+        "es": "Tapa plana con orificio en forma de X, fabricada en PET reciclable. Ideal para vasos desechables de 280/450/500/600 ml, garantiza un cierre hermético para evitar derrames. Perfecta para bebidas frías para llevar, restaurantes de comida rápida, eventos y bares.",
+        "en": "Flat lid with an X-shaped hole, made of recyclable PET. Ideal for 280/450/500/600 ml disposable cups, it guarantees a leak-proof seal. Perfect for takeaway cold drinks, fast food restaurants, events, and bars."
+      },
+      "image": "/images/uploads/tap.cr.jpg",
+      "price": "€ 56,60"
     }
   ]
 }
