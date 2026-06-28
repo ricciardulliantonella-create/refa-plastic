@@ -11,12 +11,12 @@
       }
     },
     {
-      "id": "envases",
+      "id": "Vaschette",
       "icon": "🥡",
       "label": {
-        "es": "Envases y food packaging",
-        "it": "Contenitori e food packaging",
-        "en": "Containers & food packaging"
+        "es": "BANDEJAS PP",
+        "it": "VASCHETTE IN PP",
+        "en": "PP TRAYS"
       }
     },
     {
