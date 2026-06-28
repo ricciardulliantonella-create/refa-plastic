@@ -429,6 +429,23 @@
       },
       "image": "/images/uploads/4oz.png",
       "price": "€ 40,00"
+    },
+    {
+      "available": true,
+      "id": "102950",
+      "category": "vaso de papel",
+      "name": {
+        "it": "Bicchieri di carta monouso riciclabili stampati - 210 ml (7 oz) | 1000 pezzi/scatola",
+        "es": "Vasos desechables de papel reciclables impresos - 210 ml (7 oz) | 1000 unidades/caja",
+        "en": "Printed Recyclable Disposable Paper Cups - 210 ml (7 oz) | 1000 units/box"
+      },
+      "desc": {
+        "it": "Il bicchiere di carta monouso riciclabile con cannuccia offre una soluzione da 210 cc (7 oz) per le attività del settore della ristorazione. Realizzato in carta riciclabile di alta qualità, questo bicchiere è perfetto per servire caffè espresso, degustazioni e bevande in piccole quantità. Rivestito con un sottile strato di plastica per prevenire perdite e mantenere la freschezza delle bevande, questo bicchiere è conforme agli standard europei (SUP) senza compromettere la sua riciclabilità. L'elegante design graffiti aggiunge un tocco moderno e vivace, rendendolo ideale per bar ed eventi alla moda",
+        "es": "El vaso desechable de papel reciclable con pajita ofrece una solución de 210 cc (7 oz) para negocios de restauración. Fabricado con papel reciclable de alta calidad, este vaso es perfecto para servir espresso, catas y bebidas en pequeñas cantidades. Revestido con una fina capa de plástico para evitar fugas y mantener las bebidas frescas, este vaso cumple con las normas europeas (SUP) sin comprometer su reciclabilidad. Su elegante diseño de grafiti le aporta un toque moderno y vibrante, ideal para bares y eventos de moda.",
+        "en": "This recyclable disposable paper cup with a straw offers a 210cc (7oz) solution for catering businesses. Made from high-quality recyclable paper, this cup is perfect for serving espresso, tastings, and small quantities of beverages. Lined with a thin layer of plastic to prevent leaks and keep drinks cool, this cup meets European Standards (SUP) without compromising its recyclability. Its stylish graffiti design adds a modern and vibrant touch, ideal for trendy bars and events."
+      },
+      "image": "/images/uploads/7oz.png",
+      "price": "€ 30,00"
     }
   ]
 }
