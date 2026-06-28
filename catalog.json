@@ -74,9 +74,9 @@
     {
       "id": "platos",
       "label": {
-        "es": "platos",
-        "it": "piatti",
-        "en": "dishes"
+        "es": "PLATOS",
+        "it": "PIATTI",
+        "en": "DISHES"
       }
     },
     {
