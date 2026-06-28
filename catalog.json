@@ -362,6 +362,23 @@
       },
       "image": "/images/uploads/chu.png",
       "price": "€ 3,80"
+    },
+    {
+      "available": true,
+      "id": "103581",
+      "category": "vasos",
+      "name": {
+        "it": "Bicchieri tubolari trasparenti in PP riciclabili e riutilizzabili da 300 ml | 112 - 420 unità/scatola",
+        "es": "Vasos tubulares de PP transparentes de 300 ml, reciclables y reutilizables | 112 - 420 unidades/caja",
+        "en": "300ml clear PP tubular cups, recyclable and reusable | 112 - 420 units/box"
+      },
+      "desc": {
+        "it": "Il bicchiere alto in PP da 300 ml (10,1 oz) è un'opzione riciclabile e resistente per le attività commerciali che servono un'ampia varietà di long drink, cocktail e long drink. Realizzato in polipropilene (PP), questo bicchiere è perfetto per bar, ristoranti e servizi per eventi che cercano una soluzione leggera e pratica per servire long drink",
+        "es": "El vaso alto de PP de 300 ml (10.1 oz) es una opción reciclable y duradera para negocios que sirven una amplia variedad de combinados, cócteles y bebidas. Fabricado en polipropileno (PP), este vaso es perfecto para bares, restaurantes y locales de eventos que buscan una solución ligera y práctica para servir bebidas largas.",
+        "en": "The 300ml (10.1oz) PP tall glass is a recyclable and durable option for businesses serving a wide variety of mixed drinks, cocktails, and beverages. Made from polypropylene (PP), this glass is perfect for bars, restaurants, and event venues looking for a lightweight and practical solution for serving tall drinks."
+      },
+      "image": "/images/uploads/tb1.png",
+      "price": "€ 65,00"
     }
   ]
 }
