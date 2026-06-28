@@ -446,6 +446,23 @@
       },
       "image": "/images/uploads/7oz.png",
       "price": "€ 30,00"
+    },
+    {
+      "available": true,
+      "id": "104311",
+      "category": "vaso de papel",
+      "name": {
+        "it": "Coperchi in cartone per bicchieri da 120 ml ( 4 oz ), monouso e riciclabili | 1000 pezzi/scatola",
+        "es": "Tapas de cartón desechables y reciclables para vasos de 120 ml (4 oz ) | 1000 unidades/caja",
+        "en": "Disposable and recyclable cardboard lids for 120 ml (4 oz ) cups | 1000 units/box"
+      },
+      "desc": {
+        "it": "Il coperchio riutilizzabile in PS per tazze da caffè è la soluzione ideale per il trasporto di bevande. Realizzato in polistirene (PS) nero ad alta resistenza, questo coperchio durevole si adatta perfettamente a tazze da caffè da 120 ml, offrendo un'opzione pratica ed ecologica per bar, caffetterie e servizi di catering che desiderano offrire un'esperienza sostenibile ai propri clienti.",
+        "es": "La tapa reutilizable de poliestireno (PS) para vasos de café es la solución ideal para transportar bebidas. Fabricada en poliestireno (PS) negro de alta resistencia, esta tapa duradera se adapta perfectamente a vasos de café de 120 ml, ofreciendo una opción práctica y ecológica para bares, cafeterías y servicios de catering que buscan brindar una experiencia sostenible a sus clientes.",
+        "en": "The reusable polystyrene (PS) coffee cup lid is the ideal solution for transporting beverages. Made from high-strength black polystyrene (PS), this durable lid fits perfectly on 120 ml coffee cups, offering a practical and eco-friendly option for bars, cafes, and catering services looking to provide a sustainable experience for their customers."
+      },
+      "image": "/images/uploads/tap1.jpg",
+      "price": "€ 21,00"
     }
   ]
 }
