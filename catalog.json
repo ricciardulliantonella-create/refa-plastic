@@ -260,6 +260,23 @@
       },
       "image": "/images/uploads/v1.png",
       "price": "€ 20,00"
+    },
+    {
+      "available": true,
+      "id": "105723",
+      "category": "vasos",
+      "name": {
+        "it": "Bicchiere in PP riciclabile e riutilizzabile, nero, 240 ml | 500 pezzi/scatola",
+        "es": "Vaso de PP reciclable y reutilizable, negro, 240 ml | 500 unidades/caja",
+        "en": "Recyclable and reusable PP cup, black, 240 ml | 500 units/box"
+      },
+      "desc": {
+        "it": "Il bicchiere termico nero in PP da 240 ml (8 oz) è una soluzione resistente e riciclabile per servire bevande a eventi, feste e servizi di catering. Realizzato in polipropilene (PP), questo bicchiere offre una soluzione robusta e leggera per aziende e privati ​​che desiderano un servizio di bevande pratico ed elegante.",
+        "es": "El vaso térmico negro de PP de 240 ml (8 oz) es una solución duradera y reciclable para servir bebidas en eventos, fiestas y servicios de catering. Fabricado en polipropileno (PP), este vaso ofrece una solución resistente y ligera para empresas y particulares que buscan un servicio de bebidas práctico y elegante.",
+        "en": "The 240ml (8oz) black PP thermal cup is a durable and recyclable solution for serving beverages at events, parties, and catering services. Made of polypropylene (PP), this cup offers a sturdy and lightweight solution for businesses and individuals seeking a practical and stylish beverage service."
+      },
+      "image": "/images/uploads/ne2.png",
+      "price": "€ 20,00"
     }
   ]
 }
