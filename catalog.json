@@ -100,6 +100,23 @@
     },
     {
       "available": true,
+      "id": "106659",
+      "category": "vasos",
+      "name": {
+        "it": "Bicchiere in PP trasparente, riciclabile e riutilizzabile, da 220 ml | 3000 pezzi/scatola",
+        "es": "Vaso de PP transparente de 220 ml, reciclable y reutilizable | 3000 unidades/caja",
+        "en": "220ml clear PP cup, recyclable and reusable | 3000 units/box"
+      },
+      "desc": {
+        "it": "Il bicchiere trasparente in PP da 220 ml offre una soluzione riciclabile e riutilizzabile per servire acqua e bevande fredde. Realizzato in polipropilene (PP), un materiale resistente noto per la sua robustezza e la capacità di sopportare molteplici utilizzi, questo bicchiere è ideale per bar, ristoranti ed eventi che cercano opzioni di servizio bevande durevoli.",
+        "es": "El vaso transparente de PP de 220 ml ofrece una solución reciclable y reutilizable para servir agua y bebidas frías. Fabricado en polipropileno (PP), un material duradero conocido por su resistencia y capacidad para soportar múltiples usos, este vaso es ideal para bares, restaurantes y eventos que buscan opciones duraderas para el servicio de bebidas.",
+        "en": "The 220ml clear PP cup offers a recyclable and reusable solution for serving water and cold drinks. Made from polypropylene (PP), a durable material known for its strength and ability to withstand multiple uses, this cup is ideal for bars, restaurants, and events seeking long-lasting beverage service options."
+      },
+      "image": "/images/uploads/221.png",
+      "price": "€ 45,00"
+    },
+    {
+      "available": true,
       "id": "105720",
       "category": "fiesta",
       "name": {
@@ -165,6 +182,23 @@
       },
       "image": "/images/uploads/33.png",
       "price": "€ 41,00"
+    },
+    {
+      "available": true,
+      "id": "1002",
+      "category": "vasos",
+      "name": {
+        "it": "Bicchieri in PP - Riciclabili e riutilizzabili, trasparenti, 500 ml | 1200 pezzi/scatola",
+        "es": "Vasos de PP - Reciclables y reutilizables, transparentes, 500 ml | 1200 unidades/caja",
+        "en": "PP Cups - Recyclable and reusable, transparent, 500 ml | 1200 units/box"
+      },
+      "desc": {
+        "it": "Il bicchiere trasparente in PP da 500 ml (17 oz) offre una soluzione riciclabile e riutilizzabile per servire acqua e bevande fredde. Realizzato in polipropilene (PP), un materiale resistente noto per la sua robustezza e la capacità di sopportare molteplici utilizzi, questo bicchiere è ideale per bar, ristoranti ed eventi che cercano opzioni di servizio bevande durevoli.",
+        "es": "El vaso transparente de PP de 500 ml (17 oz) ofrece una solución reciclable y reutilizable para servir agua y bebidas frías. Fabricado en polipropileno (PP), un material duradero conocido por su resistencia y capacidad para soportar múltiples usos, este vaso es ideal para bares, restaurantes y eventos que buscan opciones duraderas para servir bebidas.",
+        "en": "The 500ml (17oz) clear PP cup offers a recyclable and reusable solution for serving water and cold drinks. Made from polypropylene (PP), a durable material known for its strength and ability to withstand multiple uses, this cup is ideal for bars, restaurants, and events seeking long-lasting beverage serving options."
+      },
+      "image": "/images/uploads/500.png",
+      "price": "€ 65,00"
     },
     {
       "available": true,
@@ -304,40 +338,6 @@
     },
     {
       "available": true,
-      "id": "106659",
-      "category": "vasos",
-      "name": {
-        "it": "Bicchiere in PP trasparente, riciclabile e riutilizzabile, da 220 ml | 3000 pezzi/scatola",
-        "es": "Vaso de PP transparente de 220 ml, reciclable y reutilizable | 3000 unidades/caja",
-        "en": "220ml clear PP cup, recyclable and reusable | 3000 units/box"
-      },
-      "desc": {
-        "it": "Il bicchiere trasparente in PP da 220 ml offre una soluzione riciclabile e riutilizzabile per servire acqua e bevande fredde. Realizzato in polipropilene (PP), un materiale resistente noto per la sua robustezza e la capacità di sopportare molteplici utilizzi, questo bicchiere è ideale per bar, ristoranti ed eventi che cercano opzioni di servizio bevande durevoli.",
-        "es": "El vaso transparente de PP de 220 ml ofrece una solución reciclable y reutilizable para servir agua y bebidas frías. Fabricado en polipropileno (PP), un material duradero conocido por su resistencia y capacidad para soportar múltiples usos, este vaso es ideal para bares, restaurantes y eventos que buscan opciones duraderas para el servicio de bebidas.",
-        "en": "The 220ml clear PP cup offers a recyclable and reusable solution for serving water and cold drinks. Made from polypropylene (PP), a durable material known for its strength and ability to withstand multiple uses, this cup is ideal for bars, restaurants, and events seeking long-lasting beverage service options."
-      },
-      "image": "/images/uploads/221.png",
-      "price": "€ 45,00"
-    },
-    {
-      "available": true,
-      "id": "1002",
-      "category": "vasos",
-      "name": {
-        "it": "Bicchieri in PP - Riciclabili e riutilizzabili, trasparenti, 500 ml | 1200 pezzi/scatola",
-        "es": "Vasos de PP - Reciclables y reutilizables, transparentes, 500 ml | 1200 unidades/caja",
-        "en": "PP Cups - Recyclable and reusable, transparent, 500 ml | 1200 units/box"
-      },
-      "desc": {
-        "it": "Il bicchiere trasparente in PP da 500 ml (17 oz) offre una soluzione riciclabile e riutilizzabile per servire acqua e bevande fredde. Realizzato in polipropilene (PP), un materiale resistente noto per la sua robustezza e la capacità di sopportare molteplici utilizzi, questo bicchiere è ideale per bar, ristoranti ed eventi che cercano opzioni di servizio bevande durevoli.",
-        "es": "El vaso transparente de PP de 500 ml (17 oz) ofrece una solución reciclable y reutilizable para servir agua y bebidas frías. Fabricado en polipropileno (PP), un material duradero conocido por su resistencia y capacidad para soportar múltiples usos, este vaso es ideal para bares, restaurantes y eventos que buscan opciones duraderas para servir bebidas.",
-        "en": "The 500ml (17oz) clear PP cup offers a recyclable and reusable solution for serving water and cold drinks. Made from polypropylene (PP), a durable material known for its strength and ability to withstand multiple uses, this cup is ideal for bars, restaurants, and events seeking long-lasting beverage serving options."
-      },
-      "image": "/images/uploads/500.png",
-      "price": "€ 65,00"
-    },
-    {
-      "available": true,
       "id": "105500",
       "category": "vasos",
       "name": {
@@ -424,7 +424,7 @@
     {
       "available": true,
       "id": "105627",
-      "category": "vasos de papel",
+      "category": "bar",
       "name": {
         "it": "Bicchieri di carta monouso riciclabili stampati - 120 ml (4 oz) | 2100 unità/scatola",
         "es": "Vasos desechables de papel reciclables impresos - 120 ml (4 oz) | 2100 unidades/caja",
