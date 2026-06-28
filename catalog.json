@@ -70,6 +70,14 @@
         "es": "vasos de papel",
         "en": "paper cups"
       }
+    },
+    {
+      "id": "platos",
+      "label": {
+        "es": "platos",
+        "it": "piatti",
+        "en": "dishes"
+      }
     }
   ],
   "products": [
@@ -531,6 +539,23 @@
       },
       "image": "/images/uploads/tap.cr.jpg",
       "price": "€ 56,60"
+    },
+    {
+      "available": true,
+      "id": "105728",
+      "category": "platos",
+      "name": {
+        "it": "Targhe in PS blu riciclabili e riutilizzabili, 220 mm | 300 pezzi/scatola",
+        "es": "Letreros de poliestireno azul reciclables y reutilizables, 220 mm | 300 unidades/caja",
+        "en": "Recyclable and reusable blue polystyrene signs, 220 mm | 300 units/box"
+      },
+      "desc": {
+        "it": "Il piatto blu in PS da 220 mm (8,6 pollici) è un'opzione resistente e riciclabile per servire cibo a eventi, feste e servizi di catering. Realizzato in polistirene (PS), questo piatto offre una soluzione robusta e leggera per aziende e privati ​​alla ricerca di stoviglie pratiche ed eleganti.",
+        "es": "El plato azul de poliestireno (PS) de 220 mm (8,6 pulgadas) es una opción duradera y reciclable para servir comida en eventos, fiestas y servicios de catering. Fabricado en poliestireno (PS), este plato ofrece una solución resistente y ligera para empresas y particulares que buscan vajilla práctica y elegante.",
+        "en": "The 220mm (8.6-inch) blue polystyrene (PS) plate is a durable and recyclable option for serving food at events, parties, and catering services. Made from polystyrene (PS), this plate offers a sturdy and lightweight solution for businesses and individuals seeking practical and stylish tableware."
+      },
+      "image": "/images/uploads/piat-blu.jpg",
+      "price": "€ 28,00"
     }
   ]
 }
