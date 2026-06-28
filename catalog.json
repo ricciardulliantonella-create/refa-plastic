@@ -387,6 +387,23 @@
       },
       "image": "/images/uploads/tb1.png",
       "price": "€ 65,00"
+    },
+    {
+      "available": true,
+      "id": "1003",
+      "category": "vasos",
+      "name": {
+        "it": "Bicchieri termici in plastica PP trasparente da 355 ml (900 pezzi)",
+        "es": "Vasos térmicos de plástico PP transparente de 355 ml (900 unidades)",
+        "en": "355ml clear PP plastic thermal cups (900 units)"
+      },
+      "desc": {
+        "it": "Il bicchiere trasparente da 355 cc (12 oz) è la soluzione ideale per servire bibite, cocktail, succhi, birra e bevande fredde con praticità ed eleganza. Realizzato in polistirene (PS) di alta qualità, offre un'elevata trasparenza, leggerezza e resistenza, garantendo un'ottima presentazione delle bevande. È perfetto per bar, ristoranti, eventi, catering, feste e attività del settore Horeca che cercano un prodotto monouso affidabile, riciclabile e di qualità professionale. Confezionato in pratici pacchetti da 30 unità e 30 pacchetti per scatola, rappresenta una soluzione efficiente per un utilizzo quotidiano.",
+        "es": "El vaso de vidrio transparente de 355 cc (12 oz) es la solución ideal para servir refrescos, cócteles, zumos, cerveza y bebidas frías con comodidad y elegancia. Fabricado en poliestireno (PS) de alta calidad, ofrece gran transparencia, ligereza y durabilidad, garantizando una excelente presentación de las bebidas. Es perfecto para bares, restaurantes, eventos, servicios de catering, fiestas y el sector de la hostelería que buscan un producto desechable fiable, reciclable y de calidad profesional. Se presenta en prácticos paquetes de 30 unidades, una solución eficiente para el uso diario.",
+        "en": "The 355cc (12 oz) clear glass tumbler is the ideal solution for serving soft drinks, cocktails, juices, beer, and other cold beverages with ease and elegance. Made from high-quality polystyrene (PS), it offers exceptional transparency, lightness, and durability, ensuring excellent beverage presentation. It's perfect for bars, restaurants, events, catering services, parties, and the hospitality industry seeking a reliable, recyclable, and professional-quality disposable product. Available in convenient packs of 30, it's an efficient solution for everyday use."
+      },
+      "image": "/images/uploads/tum.png",
+      "price": "€ 65,00"
     }
   ]
 }
