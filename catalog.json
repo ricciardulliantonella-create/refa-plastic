@@ -412,6 +412,23 @@
       },
       "image": "/images/uploads/tum.png",
       "price": "€ 65,00"
+    },
+    {
+      "available": true,
+      "id": "105627",
+      "category": "vaso de papel",
+      "name": {
+        "it": "Bicchieri di carta monouso riciclabili stampati - 120 ml (4 oz) | 2100 unità/scatola",
+        "es": "Vasos desechables de papel reciclables impresos - 120 ml (4 oz) | 2100 unidades/caja",
+        "en": "Printed Recyclable Disposable Paper Cups - 120 ml (4 oz) | 2100 units/box"
+      },
+      "desc": {
+        "it": "Il bicchiere di carta monouso riciclabile con cannuccia offre una soluzione da 120 cc (4 oz) per le attività del settore della ristorazione. Realizzati in carta riciclabile di alta qualità, questi bicchieri sono perfetti per servire caffè espresso, degustazioni e bevande in piccole quantità. Rivestiti con un sottile strato di plastica per prevenire perdite e mantenere la freschezza delle bevande, questi bicchieri sono conformi agli standard europei (SUP) senza compromettere la loro riciclabilità. L'elegante design graffiti aggiunge un tocco moderno e vivace, rendendoli ideali per bar ed eventi alla moda.",
+        "es": "El vaso desechable de papel reciclable con pajita ofrece una solución de 120 cc (4 oz) para negocios de restauración. Fabricados con papel reciclable de alta calidad, estos vasos son perfectos para servir espresso, catas y bebidas en pequeñas cantidades. Recubiertos con una fina capa de plástico para evitar fugas y mantener las bebidas frescas, estos vasos cumplen con la normativa europea (SUP) sin comprometer su reciclabilidad. Su elegante diseño de grafiti les aporta un toque moderno y vibrante, lo que los hace ideales para bares y eventos de moda.",
+        "en": "The recyclable disposable paper cup with straw offers a 120cc (4oz) solution for catering businesses. Made from high-quality recyclable paper, these cups are perfect for serving espresso, tastings, and small quantities of beverages. Coated with a thin layer of plastic to prevent leaks and keep drinks cool, these cups comply with European regulations (SUP) without compromising their recyclability. Their stylish graffiti design adds a modern and vibrant touch, making them ideal for trendy bars and events."
+      },
+      "image": "/images/uploads/4oz.png",
+      "price": "€ 40,00"
     }
   ]
 }
