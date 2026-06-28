@@ -328,6 +328,23 @@
       },
       "image": "/images/uploads/1000.png",
       "price": "€ 55,00"
+    },
+    {
+      "available": true,
+      "id": "103599",
+      "category": "vasos",
+      "name": {
+        "it": "Flûte da champagne in plastica riciclabile e riutilizzabile PS, due pezzi, trasparenti, 150 ml | 176 unità/scatola",
+        "es": "Copa de champán de plástico PS reciclable y reutilizable, de dos piezas, transparente, 150 ml | 176 unidades/caja",
+        "en": "Recyclable and reusable PS plastic champagne glass, two-piece, transparent, 150 ml | 176 units/box"
+      },
+      "desc": {
+        "it": "Il flûte da champagne da 150 cc (5,1 oz) con design a cascata è un'opzione elegante e riciclabile per le attività che servono vini spumanti. Realizzato in polipropilene (PS) resistente, questo flûte è ideale per bar, ristoranti e servizi di catering che cercano una soluzione pratica e sostenibile.",
+        "es": "La copa de champán tipo cascada de 150 cc (5,1 oz) es una opción elegante y reciclable para establecimientos que sirven vino espumoso. Fabricada en polipropileno (PS) resistente, esta copa es ideal para bares, restaurantes y empresas de catering que buscan una solución práctica y sostenible.",
+        "en": "The 150cc (5.1 oz) cascade champagne flute is an elegant and recyclable option for establishments serving sparkling wine. Made from durable polypropylene (PS), this flute is ideal for bars, restaurants, and catering companies seeking a practical and sustainable solution."
+      },
+      "image": "/images/uploads/cav.png",
+      "price": "€ 50,00"
     }
   ]
 }
