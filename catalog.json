@@ -311,6 +311,23 @@
       },
       "image": "/images/uploads/500.png",
       "price": "€ 65,00"
+    },
+    {
+      "available": true,
+      "id": "105500",
+      "category": "vasos",
+      "name": {
+        "it": "Bicchieri in PP - Trasparenti, doppi, riciclabili e riutilizzabili - Capacità 1000 ml | 500 pezzi/scatola",
+        "es": "Vasos de PP transparentes de doble pared, reciclables y reutilizables - Capacidad de 1000 ml | 500 unidades/caja",
+        "en": "Double-walled, recyclable and reusable transparent PP cups - 1000ml capacity | 500 units/box"
+      },
+      "desc": {
+        "it": "Il bicchiere in plastica PP trasparente da 1000 ml (34 oz) offre una soluzione riciclabile e riutilizzabile per le attività commerciali che servono grandi quantità di bevande, come birre, cocktail e bibite analcoliche. Realizzato in polipropilene (PP) resistente, questo bicchiere è ideale per bar, ristoranti e servizi per eventi che cercano opzioni di bevande ecocompatibili e ad alta capacità.",
+        "es": "El vaso de plástico PP transparente de 1000 ml (34 oz) ofrece una solución reciclable y reutilizable para negocios que sirven grandes cantidades de bebidas, como cerveza, cócteles y refrescos. Fabricado con polipropileno (PP) duradero, este vaso es ideal para bares, restaurantes y locales de eventos que buscan opciones de bebidas ecológicas y de gran capacidad.",
+        "en": "The 1000ml (34oz) clear PP plastic cup offers a recyclable and reusable solution for businesses serving large quantities of beverages, such as beer, cocktails, and soft drinks. Made from durable polypropylene (PP), this cup is ideal for bars, restaurants, and event venues looking for eco-friendly, high-capacity beverage options."
+      },
+      "image": "/images/uploads/1000.png",
+      "price": "€ 55,00"
     }
   ]
 }
