@@ -624,6 +624,23 @@
       },
       "image": "/images/uploads/pp.jpg",
       "price": "€ 20,00"
+    },
+    {
+      "available": true,
+      "id": "105579",
+      "category": "platos",
+      "name": {
+        "it": "Piastre profonde monouso riutilizzabili in plastica PS bianca 220 mm |  450 unità/scatola",
+        "es": "Platos hondos desechables y reutilizables de plástico PS blanco de 220 mm | 450 unidades/caja",
+        "en": "Disposable and reusable deep plates made of white PS plastic, 220 mm | 450 units/box"
+      },
+      "desc": {
+        "it": "Questo piatto profondo riutilizzabile da 220 mm, realizzato in polistirene (PS) bianco ad alta resistenza, è perfetto per zuppe, insalate e piatti con salse. Il suo design robusto ed elegante è ideale per eventi, catering e aziende alimentari che cercano un'opzione pratica, durevole ed ecologica.",
+        "es": "Este plato hondo reutilizable de 220 mm, fabricado en poliestireno blanco de alta resistencia (PS), es perfecto para sopas, ensaladas y salsas. Su diseño robusto y elegante es ideal para eventos, servicios de catering y empresas de restauración que buscan una opción práctica, duradera y ecológica.",
+        "en": "This reusable 220mm deep bowl, made of high-strength white polystyrene (PS), is perfect for soups, salads, and sauces. Its robust and elegant design is ideal for events, catering services, and food service businesses looking for a practical, durable, and eco-friendly option."
+      },
+      "image": "/images/uploads/pf.jpg",
+      "price": "€ 33,00"
     }
   ]
 }
