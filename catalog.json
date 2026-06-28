@@ -573,6 +573,23 @@
       },
       "image": "/images/uploads/pve.jpg",
       "price": "€ 28,00"
+    },
+    {
+      "available": true,
+      "id": "105731",
+      "category": "platos",
+      "name": {
+        "it": "Piatti in PS riciclabili e riutilizzabili, neri, 220 mm | 300 pezzi/scatola",
+        "es": "Platos de poliestireno reciclables y reutilizables, negros, 220 mm | 300 unidades/caja",
+        "en": "Recyclable and reusable polystyrene plates, black, 220 mm | 300 units/box"
+      },
+      "desc": {
+        "it": "Il piatto nero in PS da 220 mm (8,6 pollici) è un'opzione resistente e riciclabile per servire cibo a eventi, feste e servizi di catering. Realizzato in polistirene (PS), questo piatto offre una soluzione robusta e leggera per aziende e privati ​​alla ricerca di stoviglie pratiche ed eleganti.\n\n ",
+        "es": "El plato de poliestireno negro de 220 mm (8,6 pulgadas) es una opción duradera y reciclable para servir comida en eventos, fiestas y servicios de catering. Fabricado en poliestireno (PS), este plato ofrece una solución resistente y ligera para empresas y particulares que buscan vajilla práctica y elegante.",
+        "en": "The 220mm (8.6-inch) black polystyrene plate is a durable and recyclable option for serving food at events, parties, and catering services. Made from polystyrene (PS), this plate offers a sturdy yet lightweight solution for businesses and individuals seeking practical and stylish tableware."
+      },
+      "image": "/images/uploads/pner.jpg",
+      "price": "€ 28,00"
     }
   ]
 }
