@@ -497,6 +497,23 @@
       },
       "image": "/images/uploads/cup.jpg",
       "price": "€ 31,55"
+    },
+    {
+      "available": true,
+      "id": "3840",
+      "category": "vasos",
+      "name": {
+        "it": "Coperchio a cupola in PET riciclabile con foro per bicchieri da 300/330 ml | 1000 pezzi/scatola",
+        "es": "Tapa de cúpula de PET reciclable con orificio para vasos de 300/330 ml | 1000 unidades/caja",
+        "en": "Recyclable PET dome lid with hole for 300/330 ml cups | 1000 units/box"
+      },
+      "desc": {
+        "it": "Coperchio a cupola con foro per cannuccia, realizzato in PET riciclabile, progettato per bicchieri da 300/330 cc. Riutilizzabile, resistente e sicuro, perfetto per bevande fredde in bar, ristoranti e locali da asporto.",
+        "es": "Tapa abovedada con orificio para pajita, fabricada en PET reciclable, diseñada para vasos de 300/330 cc. Reutilizable, duradera y segura, perfecta para bebidas frías en bares, restaurantes y establecimientos de comida para llevar.",
+        "en": "Dome-shaped lid with straw hole, made of recyclable PET, designed for 300/330 cc cups. Reusable, durable and safe, perfect for cold drinks in bars, restaurants and takeaway establishments."
+      },
+      "image": "/images/uploads/cup.jpg",
+      "price": "€ 55,00"
     }
   ]
 }
