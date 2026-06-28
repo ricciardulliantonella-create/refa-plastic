@@ -345,6 +345,23 @@
       },
       "image": "/images/uploads/cav.png",
       "price": "€ 50,00"
+    },
+    {
+      "available": true,
+      "id": "101100",
+      "category": "vasos",
+      "name": {
+        "it": "Bicchierini da shot 2cl 80 unità",
+        "es": "Vasos de chupito de 2 cl, 80 unidades",
+        "en": "2 cl shot glasses, 80 units"
+      },
+      "desc": {
+        "it": "Il bicchiere degustazione da 2 cl (20 ml) in polistirene trasparente è una soluzione pratica, igienica e riciclabile, ideale per degustazioni, assaggi, liquori, distillati e campionature alimentari. Realizzato in polistirene (PS) resistente e trasparente, offre un'eccellente presentazione del contenuto mantenendo leggerezza e praticità d'uso. È la scelta perfetta per bar, eventi, catering, fiere e attività del settore alimentare che cercano un prodotto monouso di qualità, affidabile e sostenibile.",
+        "es": "El vaso de cata de poliestireno transparente de 2 cl (20 ml) es una solución práctica, higiénica y reciclable, ideal para catas y degustaciones de licores, bebidas espirituosas y muestras de alimentos. Fabricado en poliestireno (PS) transparente y duradero, ofrece una excelente presentación del contenido, además de ser ligero y fácil de usar. Es la opción perfecta para bares, eventos, empresas de catering, ferias comerciales y negocios de restauración que buscan un producto desechable de calidad, fiable y sostenible.",
+        "en": "The 2 cl (20 ml) clear polystyrene tasting glass is a practical, hygienic, and recyclable solution, ideal for tastings and samplings of liqueurs, spirits, and food samples. Made of durable, transparent polystyrene (PS), it offers excellent presentation of the contents and is lightweight and easy to use. It is the perfect choice for bars, events, catering companies, trade shows, and food service businesses looking for a high-quality, reliable, and sustainable disposable product."
+      },
+      "image": "/images/uploads/chu.png",
+      "price": "€ 3,80"
     }
   ]
 }
