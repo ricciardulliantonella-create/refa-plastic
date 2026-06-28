@@ -463,6 +463,23 @@
       },
       "image": "/images/uploads/tap1.jpg",
       "price": "€ 21,00"
+    },
+    {
+      "available": true,
+      "id": "106177",
+      "category": "vaso de papel",
+      "name": {
+        "it": "Coperchi in cartone per bicchieri da 210 ml (7 oz ), monouso e riciclabili | 1000 pezzi/scatola",
+        "es": "Tapas de cartón desechables y reciclables para vasos de 210 ml (7 oz ) | 1000 unidades/caja",
+        "en": "Disposable and recyclable cardboard lids for 210ml ( 7oz) cups | 1000 units/box"
+      },
+      "desc": {
+        "it": "Il coperchio riutilizzabile in PS per tazze da caffè è la soluzione ideale per il trasporto di bevande. Realizzato in polistirene (PS) nero ad alta resistenza, questo coperchio durevole si adatta perfettamente a tazze da caffè da 210 ml  ( 7 oz ), offrendo un'opzione pratica ed ecologica per bar, caffetterie e servizi di catering che desiderano offrire un'esperienza sostenibile ai propri clienti.",
+        "es": "La tapa reutilizable de poliestireno (PS) para vasos de café es la solución ideal para transportar bebidas. Fabricada en poliestireno (PS) negro de alta resistencia, esta tapa duradera se ajusta perfectamente a los vasos de café de 210 ml (7 oz), ofreciendo una opción práctica y ecológica para bares, cafeterías y servicios de catering que buscan brindar una experiencia sostenible a sus clientes.",
+        "en": "The reusable polystyrene (PS) coffee cup lid is the ideal solution for transporting beverages. Made from high-strength black polystyrene (PS), this durable lid fits perfectly on 210 ml (7 oz) coffee cups, offering a practical and eco-friendly option for bars, cafes, and catering services looking to provide a sustainable experience for their customers."
+      },
+      "image": "/images/uploads/tap1.jpg",
+      "price": "€ 26,00"
     }
   ]
 }
