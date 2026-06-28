@@ -54,6 +54,14 @@
         "it": "Linea compostabile",
         "en": "Compostable line"
       }
+    },
+    {
+      "label": {
+        "es": "vasos de fiesta",
+        "it": "bicchieri da festa",
+        "en": "party glasses"
+      },
+      "id": "vasos"
     }
   ],
   "products": [
