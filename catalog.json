@@ -78,6 +78,14 @@
         "it": "piatti",
         "en": "dishes"
       }
+    },
+    {
+      "id": "tappi",
+      "label": {
+        "es": "TAPAS Y CÚPULAS",
+        "it": "TAPPI E CUPOLE",
+        "en": "COVERS AND DOMES"
+      }
     }
   ],
   "products": [
