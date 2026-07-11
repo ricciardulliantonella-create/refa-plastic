@@ -746,6 +746,23 @@
       },
       "price": "€ 28",
       "image": "/images/uploads/ham.png"
+    },
+    {
+      "available": true,
+      "id": "106414",
+      "category": "COPERTO",
+      "name": {
+        "it": "Forchetta trasparente in PS riciclabile | 800 pezzi/scatola",
+        "es": "Tenedor de poliestireno reciclable transparente | 800 unidades/caja",
+        "en": "Recyclable clear polystyrene fork | 800 units/box"
+      },
+      "desc": {
+        "it": "La forchetta trasparente in PS offre una soluzione resistente e riciclabile per il servizio di ristorazione in occasione di eventi, ristoranti e servizi di catering. Realizzata in polistirene (PS) di alta qualità, questa forchetta garantisce robustezza e comfort, mantenendo al contempo un aspetto elegante e professionale.",
+        "es": "El tenedor de poliestireno transparente ofrece una solución duradera y reciclable para el servicio de alimentos en eventos, restaurantes y empresas de catering. Fabricado con poliestireno (PS) de alta calidad, este tenedor garantiza robustez y comodidad, manteniendo a la vez una apariencia elegante y profesional.",
+        "en": "The clear polystyrene fork offers a durable and recyclable solution for food service at events, restaurants, and catering companies. Made from high-quality polystyrene (PS), this fork ensures sturdiness and comfort while maintaining a sleek and professional appearance."
+      },
+      "image": "/images/uploads/for.png",
+      "price": "€ 28"
     }
   ]
 }
