@@ -85,6 +85,9 @@
   .nav-links a:hover{color:var(--verde-bri)}
   .nav-cta{background:var(--verde);color:#fff!important;padding:.55rem 1.2rem;border-radius:50px}
   .nav-cta:hover{background:var(--verde-osc)}
+  .wa-btn{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;
+    background:#25D366;color:#fff;flex:none;transition:.2s;box-shadow:0 3px 10px rgba(37,211,102,.45)}
+  .wa-btn:hover{background:#1ebe5b;transform:translateY(-2px)}
   .lang{display:flex;gap:.2rem;background:var(--crema);border-radius:50px;padding:.25rem;border:1px solid var(--borde)}
   .lang button{border:none;background:none;color:var(--gris);font-weight:700;font-size:.8rem;
     padding:.35rem .65rem;border-radius:50px;cursor:pointer;transition:.2s;letter-spacing:.5px}
@@ -276,6 +279,9 @@
         <li><a href="#sectores" data-i18n="nav_sectors">Sectores</a></li>
         <li><a href="#contacto" class="nav-cta" data-i18n="nav_quote">Presupuesto</a></li>
       </ul>
+      <a id="waBtn" class="wa-btn" href="https://wa.me/34642442948" target="_blank" rel="noopener" aria-label="WhatsApp" title="WhatsApp">
+        <svg viewBox="0 0 32 32" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M16.04 3C9.4 3 4 8.4 4 15.04c0 2.12.56 4.17 1.6 6L4 27.2l6.35-1.66a12 12 0 0 0 5.69 1.45h.01c6.64 0 12.04-5.4 12.04-12.04C28.09 8.4 22.68 3 16.04 3zm7.02 17.2c-.3.84-1.48 1.54-2.43 1.74-.65.14-1.5.25-4.36-.94-3.66-1.52-6.02-5.24-6.2-5.48-.18-.24-1.48-1.97-1.48-3.76s.94-2.67 1.27-3.03c.33-.36.72-.45.96-.45l.69.01c.22.01.52-.08.81.62.3.72 1.02 2.5 1.11 2.68.09.18.15.39.03.63-.12.24-.18.39-.36.6-.18.21-.38.47-.54.63-.18.18-.37.38-.16.74.21.36.94 1.55 2.02 2.51 1.39 1.24 2.56 1.62 2.92 1.8.36.18.57.15.78-.09.21-.24.9-1.05 1.14-1.41.24-.36.48-.3.81-.18.33.12 2.1.99 2.46 1.17.36.18.6.27.69.42.09.15.09.87-.21 1.71z"/></svg>
+      </a>
       <div class="lang" id="lang">
         <button data-lang="it">IT</button>
         <button data-lang="en">EN</button>
@@ -509,7 +515,7 @@
       f_name:"Nome",f_phone:"Telefono",f_email:"Email",f_msg:"Messaggio",f_send:"Invia richiesta",
       f_ok:"Grazie! Abbiamo ricevuto il tuo messaggio. Ti contatteremo presto.",
       foot_desc:"Distributore ufficiale per le Canarie di soluzioni sostenibili in stoviglie e food packaging. Qualità, sostenibilità e servizio.",
-      foot_links:"Link",foot_rights:"Tutti i diritti riservati",pdf_btn:"Scarica catalogo (PDF)",pdf_loading:"Generazione PDF…",
+      foot_links:"Link",foot_rights:"Tutti i diritti riservati",pdf_btn:"Scarica catalogo (PDF)",pdf_loading:"Generazione PDF…",wa_msg:"Ciao, vorrei ricevere informazioni su Refa Plastic",
       cat_all:"Tutti",cat_empty:"Al momento non ci sono prodotti in questa categoria.",cat_consult:"Su richiesta"
     },
     en:{
@@ -551,7 +557,7 @@
       f_name:"Name",f_phone:"Phone",f_email:"Email",f_msg:"Message",f_send:"Send request",
       f_ok:"Thank you! We've received your message and will contact you soon.",
       foot_desc:"Official distributor for the Canary Islands of sustainable solutions in tableware and food packaging. Quality, sustainability and service.",
-      foot_links:"Links",foot_rights:"All rights reserved",pdf_btn:"Download catalogue (PDF)",pdf_loading:"Generating PDF…",
+      foot_links:"Links",foot_rights:"All rights reserved",pdf_btn:"Download catalogue (PDF)",pdf_loading:"Generating PDF…",wa_msg:"Hi, I'd like to receive information about Refa Plastic",
       cat_all:"All",cat_empty:"There are no products in this category at the moment.",cat_consult:"On request"
     },
     es:{
@@ -593,7 +599,7 @@
       f_name:"Nombre",f_phone:"Teléfono",f_email:"Email",f_msg:"Mensaje",f_send:"Enviar solicitud",
       f_ok:"¡Gracias! Hemos recibido tu mensaje. Te contactaremos pronto.",
       foot_desc:"Distribuidor oficial para Canarias de soluciones sostenibles en menaje y food packaging. Calidad, sostenibilidad y servicio.",
-      foot_links:"Enlaces",foot_rights:"Todos los derechos reservados",pdf_btn:"Descargar catálogo (PDF)",pdf_loading:"Generando PDF…",
+      foot_links:"Enlaces",foot_rights:"Todos los derechos reservados",pdf_btn:"Descargar catálogo (PDF)",pdf_loading:"Generando PDF…",wa_msg:"Hola, me gustaría recibir información sobre Refa Plastic",
       cat_all:"Todos",cat_empty:"No hay productos en esta categoría por el momento.",cat_consult:"Consultar"
     }
   };
@@ -609,6 +615,8 @@
     });
     document.querySelectorAll('#lang button').forEach(b=>b.classList.toggle('active',b.dataset.lang===lang));
     try{localStorage.setItem('refa_lang',lang);}catch(e){}
+    var wa=document.getElementById('waBtn');
+    if(wa) wa.href='https://wa.me/34642442948?text='+encodeURIComponent(dict.wa_msg||'');
     renderCatalog();
   }
 
