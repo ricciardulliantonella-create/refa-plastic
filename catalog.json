@@ -57,6 +57,14 @@
         "it": "PER ASPORTO",
         "en": "TAKE AWAY"
       }
+    },
+    {
+      "id": "COPERTO",
+      "label": {
+        "es": "CUBIERTO",
+        "it": "COPERTO",
+        "en": "COVERED"
+      }
     }
   ],
   "products": [
