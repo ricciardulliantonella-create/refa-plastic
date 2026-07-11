@@ -831,6 +831,23 @@
       },
       "image": "/images/uploads/tap.png",
       "price": "€ 42"
+    },
+    {
+      "available": true,
+      "id": "105406",
+      "category": "tappi",
+      "name": {
+        "it": "Coperchi di carta per contenitori di zuppa - Kraft 500/1000 ml | Cibo da asporto e catering | 150 pezzi/scatola. 25 a confezione",
+        "es": "Tapas de papel kraft para envases de sopa - 500/1000 ml | Para comida para llevar y catering | 150 unidades/caja. 25 por paquete.",
+        "en": "Kraft paper lids for soup containers - 500/1000 ml | For takeaway and catering | 150 units/box. 25 per pack."
+      },
+      "desc": {
+        "it": "Coperchio resistente per contenitori alimentari in carta kraft da 500/1000 ml (150mm) . Perfetto per cibo da asporto, catering e consegna a domicilio",
+        "es": "Tapa resistente para envases de papel kraft de 500/1000 ml (150 mm). Ideal para comida para llevar, catering y entrega a domicilio.",
+        "en": "Durable lid for 500/1000 ml (150 mm) kraft paper containers. Ideal for takeaway food, catering, and home delivery."
+      },
+      "image": "/images/uploads/tp1.png",
+      "price": "€ 40"
     }
   ]
 }
