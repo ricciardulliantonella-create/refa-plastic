@@ -637,6 +637,23 @@
       },
       "image": "/images/uploads/bol-750.png",
       "price": " €45"
+    },
+    {
+      "available": true,
+      "id": "asporto",
+      "category": "asporto",
+      "name": {
+        "it": "Ciotola rotonda di carta riciclabile da 1000 ml | 300 pezzi/scatola",
+        "es": "Bol redondo de papel reciclable de 1000 ml | 300 unidades/caja",
+        "en": "1000ml Recyclable Paper Round Bowl | 300 units/box"
+      },
+      "desc": {
+        "it": "Contenitori rotondi in carta da 1000 cc con rivestimento interno in PP riciclabile. Queste ciotole ecocompatibili sono perfette per l'asporto, la conservazione degli alimenti e gli eventi, e offrono una soluzione pratica con coperchi disponibili separatamente.",
+        "es": "Envases redondos de papel de 1000 cc con revestimiento interior de PP reciclable. Estos recipientes ecológicos son perfectos para comida para llevar, almacenamiento de alimentos y eventos, y ofrecen una solución práctica con tapas disponibles por separado.",
+        "en": "1000cc round paper containers with a recyclable PP inner lining. These eco-friendly containers are perfect for takeaways, food storage, and events, and offer a practical solution with lids available separately."
+      },
+      "image": "/images/uploads/bol-100.png",
+      "price": "€ 56"
     }
   ]
 }
