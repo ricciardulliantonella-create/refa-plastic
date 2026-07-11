@@ -318,6 +318,9 @@
       <h2 data-i18n="prod_title">Nuestros productos</h2>
       <p data-i18n="prod_sub">Una gama completa de menaje y food packaging sostenible para tu negocio.</p>
     </div>
+    <div style="text-align:center;margin-bottom:2.2rem" class="reveal">
+      <button id="pdfBtn" class="btn btn-primary" onclick="downloadCatalogPDF()" data-i18n="pdf_btn">Descargar catálogo (PDF)</button>
+    </div>
     <div class="cat-filter reveal" id="catFilter"></div>
     <div class="cards" id="catalogGrid"></div>
     <p class="catalog-empty" id="catalogEmpty" style="display:none" data-i18n="cat_empty">No hay productos en esta categoría por el momento.</p>
@@ -427,6 +430,7 @@
 </footer>
 
 <script src="catalog.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script>
   const I18N={
     it:{
@@ -468,7 +472,7 @@
       f_name:"Nome",f_phone:"Telefono",f_email:"Email",f_msg:"Messaggio",f_send:"Invia richiesta",
       f_ok:"Grazie! Abbiamo ricevuto il tuo messaggio. Ti contatteremo presto.",
       foot_desc:"Distributore ufficiale per le Canarie di soluzioni sostenibili in stoviglie e food packaging. Qualità, sostenibilità e servizio.",
-      foot_links:"Link",foot_rights:"Tutti i diritti riservati",
+      foot_links:"Link",foot_rights:"Tutti i diritti riservati",pdf_btn:"Scarica catalogo (PDF)",pdf_loading:"Generazione PDF…",
       cat_all:"Tutti",cat_empty:"Al momento non ci sono prodotti in questa categoria.",cat_consult:"Su richiesta"
     },
     en:{
@@ -510,7 +514,7 @@
       f_name:"Name",f_phone:"Phone",f_email:"Email",f_msg:"Message",f_send:"Send request",
       f_ok:"Thank you! We've received your message and will contact you soon.",
       foot_desc:"Official distributor for the Canary Islands of sustainable solutions in tableware and food packaging. Quality, sustainability and service.",
-      foot_links:"Links",foot_rights:"All rights reserved",
+      foot_links:"Links",foot_rights:"All rights reserved",pdf_btn:"Download catalogue (PDF)",pdf_loading:"Generating PDF…",
       cat_all:"All",cat_empty:"There are no products in this category at the moment.",cat_consult:"On request"
     },
     es:{
@@ -552,7 +556,7 @@
       f_name:"Nombre",f_phone:"Teléfono",f_email:"Email",f_msg:"Mensaje",f_send:"Enviar solicitud",
       f_ok:"¡Gracias! Hemos recibido tu mensaje. Te contactaremos pronto.",
       foot_desc:"Distribuidor oficial para Canarias de soluciones sostenibles en menaje y food packaging. Calidad, sostenibilidad y servicio.",
-      foot_links:"Enlaces",foot_rights:"Todos los derechos reservados",
+      foot_links:"Enlaces",foot_rights:"Todos los derechos reservados",pdf_btn:"Descargar catálogo (PDF)",pdf_loading:"Generando PDF…",
       cat_all:"Todos",cat_empty:"No hay productos en esta categoría por el momento.",cat_consult:"Consultar"
     }
   };
@@ -625,6 +629,93 @@
   document.getElementById('year').textContent=new Date().getFullYear();
   function enviar(e){e.preventDefault();document.getElementById('formMsg').style.display='block';
     document.getElementById('contactForm').reset();return false;}
+
+  /* ---------- EXPORT CATÁLOGO EN PDF ---------- */
+  function loadPDFImage(src){
+    return new Promise(function(res,rej){
+      const im=new Image(); im.crossOrigin='anonymous';
+      im.onload=function(){
+        try{
+          const c=document.createElement('canvas'); c.width=im.naturalWidth; c.height=im.naturalHeight;
+          const ctx=c.getContext('2d'); ctx.fillStyle='#ffffff'; ctx.fillRect(0,0,c.width,c.height); ctx.drawImage(im,0,0);
+          res({data:c.toDataURL('image/jpeg',0.82), w:im.naturalWidth, h:im.naturalHeight});
+        }catch(e){ rej(e); }
+      };
+      im.onerror=function(){ rej(new Error('img')); };
+      im.src=src;
+    });
+  }
+  async function downloadCatalogPDF(){
+    const t=I18N[currentLang]||{};
+    const btn=document.getElementById('pdfBtn');
+    if(!(window.jspdf&&window.jspdf.jsPDF)){ alert('PDF non disponibile, riprova tra qualche secondo.'); return; }
+    const old=btn?btn.textContent:'';
+    if(btn){ btn.disabled=true; btn.textContent=(t.pdf_loading||'…'); }
+    try{
+      const cat=getCatalog();
+      const groups=cat.categories
+        .map(function(c){ return {c:c, prods:cat.products.filter(function(p){return p.available!==false && p.category===c.id;})}; })
+        .filter(function(g){ return g.prods.length>0; });   // escludi categorie vuote
+      const logo=await loadPDFImage('logo.jpeg').catch(function(){return null;});
+      for(const g of groups){ for(const p of g.prods){ p.__pdfimg = p.image ? await loadPDFImage(p.image).catch(function(){return null;}) : null; } }
+
+      const JS=window.jspdf.jsPDF; const doc=new JS('p','mm','a4');
+      const PW=210, ML=14, MR=14, cW=PW-ML-MR, footerY=283, topY=32;
+      function S(s){ return (s||'').replace(/[–—]/g,'-').replace(/[“”]/g,'"').replace(/[‘’]/g,"'").replace(/…/g,'...').replace(/​/g,'').replace(/ /g,' ').trim(); }
+      function frame(){
+        if(logo&&logo.data){ const lw=15*(logo.w/logo.h); doc.addImage(logo.data,'JPEG',ML,7,lw,15); }
+        doc.setFont('helvetica','bold'); doc.setFontSize(15); doc.setTextColor(15,76,42);
+        doc.text('Refa Plastic', PW-MR, 14, {align:'right'});
+        doc.setFont('helvetica','normal'); doc.setFontSize(9); doc.setTextColor(90,107,90);
+        doc.text('refaplastic.com', PW-MR, 19.5, {align:'right'});
+        doc.setDrawColor(116,192,67); doc.setLineWidth(0.6); doc.line(ML,24,PW-MR,24);
+        doc.setDrawColor(223,231,215); doc.setLineWidth(0.3); doc.line(ML,footerY,PW-MR,footerY);
+        doc.setFontSize(8); doc.setTextColor(90,107,90);
+        doc.text('Refa Plastic  |  +34 642 442 948  |  refa.plastic2024@gmail.com  |  Tenerife - Islas Canarias', PW/2, footerY+5, {align:'center'});
+        doc.text('www.refaplastic.com', PW/2, footerY+9, {align:'center'});
+      }
+      function newPage(){ doc.addPage(); frame(); return topY; }
+      let y=topY; frame();
+      doc.setFont('helvetica','bold'); doc.setFontSize(20); doc.setTextColor(15,76,42);
+      doc.text(S(t.prod_title||'Catálogo'), ML, y); y+=6;
+      doc.setFont('helvetica','normal'); doc.setFontSize(10); doc.setTextColor(90,107,90);
+      doc.splitTextToSize(S(t.prod_sub||''), cW).forEach(function(l){ doc.text(l,ML,y); y+=5; }); y+=3;
+
+      groups.forEach(function(g){
+        if(y+14>footerY-6) y=newPage();
+        doc.setFillColor(15,76,42); doc.roundedRect(ML,y-1,cW,9,2,2,'F');
+        doc.setFont('helvetica','bold'); doc.setFontSize(12); doc.setTextColor(255,255,255);
+        doc.text(S(L(g.c.label)).toUpperCase(), ML+4, y+5.2); y+=13;
+        g.prods.forEach(function(p){
+          const imgS=26, tX=ML+imgS+5, tW=cW-imgS-5;
+          doc.setFont('helvetica','bold'); doc.setFontSize(10);
+          const nameL=doc.splitTextToSize(S(L(p.name)), tW);
+          doc.setFont('helvetica','normal'); doc.setFontSize(8.3);
+          let descL=doc.splitTextToSize(S(L(p.desc)), tW); if(descL.length>4) descL=descL.slice(0,4);
+          const textH=nameL.length*4.4+(p.price?5:0)+descL.length*3.7+3;
+          const rowH=Math.max(imgS+4,textH);
+          if(y+rowH>footerY-4) y=newPage();
+          const im=p.__pdfimg;
+          if(im&&im.data){ let w=imgS,h=imgS; if(im.w>im.h){h=imgS*im.h/im.w;}else{w=imgS*im.w/im.h;}
+            doc.addImage(im.data,'JPEG',ML+(imgS-w)/2,y+(imgS-h)/2,w,h); }
+          else { doc.setFillColor(243,247,238); doc.roundedRect(ML,y,imgS,imgS,2,2,'F'); }
+          doc.setDrawColor(228,236,224); doc.setLineWidth(0.3); doc.roundedRect(ML,y,imgS,imgS,2,2);
+          let ty=y+4;
+          doc.setFont('helvetica','bold'); doc.setFontSize(10); doc.setTextColor(15,76,42);
+          nameL.forEach(function(l){ doc.text(l,tX,ty); ty+=4.4; });
+          if(p.price){ doc.setTextColor(47,158,68); doc.setFontSize(10.5); doc.text(S(p.price),tX,ty+0.8); ty+=5; }
+          doc.setFont('helvetica','normal'); doc.setFontSize(8.3); doc.setTextColor(90,107,90);
+          descL.forEach(function(l){ doc.text(l,tX,ty); ty+=3.7; });
+          y+=rowH+4;
+        });
+        y+=2;
+      });
+      const tot=doc.getNumberOfPages();
+      for(let i=1;i<=tot;i++){ doc.setPage(i); doc.setFontSize(8); doc.setTextColor(90,107,90); doc.text(i+' / '+tot, PW-MR, footerY+9, {align:'right'}); }
+      doc.save('Catalogo Refa Plastic.pdf');
+    }catch(err){ console.error(err); alert('Errore nella generazione del PDF: '+(err&&err.message?err.message:err)); }
+    finally{ if(btn){ btn.disabled=false; btn.textContent=old; } }
+  }
 
   let initLang='es';
   try{const s=localStorage.getItem('refa_lang'); if(s) initLang=s;
