@@ -797,6 +797,23 @@
       },
       "image": "/images/uploads/cuc.png",
       "price": "€ 12"
+    },
+    {
+      "available": true,
+      "id": "105646",
+      "category": "COPERTO",
+      "name": {
+        "it": "Cucchiaino da caffè trasparente in PS riciclabile | 600 pezzi/scatola",
+        "es": "Cuchara de café de poliestireno reciclable transparente | 600 unidades/caja",
+        "en": "Recyclable clear polystyrene coffee spoon | 600 units/box"
+      },
+      "desc": {
+        "it": "Il cucchiaino da caffè in PS trasparente offre una soluzione resistente e riciclabile per il servizio di ristorazione in occasione di eventi, ristoranti e servizi di catering. Realizzato in polistirene (PS) di alta qualità, questo set di posate garantisce robustezza e comfort, mantenendo al contempo un aspetto elegante e professionale.",
+        "es": "La cuchara de café transparente de poliestireno (PS) ofrece una solución duradera y reciclable para el servicio de alimentos en eventos, restaurantes y empresas de catering. Fabricada con poliestireno (PS) de alta calidad, esta cubertería garantiza resistencia y comodidad, manteniendo una apariencia elegante y profesional.",
+        "en": "The clear polystyrene (PS) coffee spoon offers a durable and recyclable solution for food service at events, restaurants, and catering companies. Made from high-quality polystyrene (PS), this cutlery ensures strength and comfort while maintaining a sleek and professional appearance."
+      },
+      "image": "/images/uploads/caf.png",
+      "price": "€ 13"
     }
   ]
 }
