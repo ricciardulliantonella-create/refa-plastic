@@ -814,6 +814,23 @@
       },
       "image": "/images/uploads/caf.png",
       "price": "€ 13"
+    },
+    {
+      "available": true,
+      "id": "105415",
+      "category": "tappi",
+      "name": {
+        "it": "Coperchio in R-PET per ciotola rotonda da 500/750/1000 ml | 300 pezzi/scatola",
+        "es": "Tapa de R-PET para recipiente redondo de 500/750/1000 ml | 300 unidades/caja",
+        "en": "R-PET lid for 500/750/1000 ml round container | 300 units/box"
+      },
+      "desc": {
+        "it": "I coperchi arrotondati in R-PET sono il complemento perfetto per le ciotole rettangolari, progettati per garantire una chiusura sicura ed efficace. Realizzati in R-PET, un materiale riciclato e riciclabile, questi coperchi offrono una soluzione pratica e sostenibile per il trasporto e la conservazione degli alimenti.",
+        "es": "Las tapas redondeadas de R-PET son el complemento perfecto para los recipientes rectangulares, diseñadas para garantizar un cierre seguro y eficaz. Fabricadas con R-PET, un material reciclado y reciclable, estas tapas ofrecen una solución práctica y sostenible para el transporte y almacenamiento de alimentos.",
+        "en": "The rounded R-PET lids are the perfect complement to the rectangular containers, designed to ensure a secure and effective seal. Made from R-PET, a recycled and recyclable material, these lids offer a practical and sustainable solution for transporting and storing food."
+      },
+      "image": "/images/uploads/tap.png",
+      "price": "€ 42"
     }
   ]
 }
