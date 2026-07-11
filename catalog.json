@@ -865,6 +865,22 @@
       },
       "image": "/images/uploads/tp2.png",
       "price": "€50"
+    },
+    {
+      "available": true,
+      "category": "bicchierecarta",
+      "name": {
+        "it": "Bastoncini di polistirolo trasparenti riutilizzabili da 90 mm | 10.000 pezzi/scatola",
+        "es": "Barras de espuma de poliestireno transparente reutilizables de 90 mm | 10.000 unidades/caja",
+        "en": "Reusable 90mm Clear Polystyrene Foam Sticks | 10,000 Units/Box"
+      },
+      "desc": {
+        "it": "Questi agitatori trasparenti in PS da 90 mm (3,5 pollici) offrono una soluzione pratica ed ecologica per miscelare bevande in caffetterie, bar e servizi di catering per eventi. Realizzati in polipropilene (PS) di alta qualità, questi agitatori riutilizzabili e riciclabili garantiscono durata nel tempo, mantenendo al contempo un aspetto elegante e professionale.",
+        "es": "Estos agitadores de polipropileno (PS) transparentes de 90 mm (3,5\") ofrecen una solución práctica y ecológica para preparar bebidas en cafeterías, bares y servicios de catering para eventos. Fabricados con polipropileno (PS) de alta calidad, estos agitadores reutilizables y reciclables garantizan una larga durabilidad y un aspecto elegante y profesional.",
+        "en": "These 90mm (3.5\") clear polypropylene (PS) stirrers offer a practical and eco-friendly solution for preparing drinks in cafes, bars, and event catering services. Made from high-quality polypropylene (PS), these reusable and recyclable stirrers ensure long-lasting durability and a sleek, professional appearance."
+      },
+      "price": "€ 50",
+      "image": "/images/uploads/ast.png"
     }
   ]
 }
