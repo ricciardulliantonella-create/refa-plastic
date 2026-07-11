@@ -721,6 +721,23 @@
       },
       "image": "/images/uploads/ba50.png",
       "price": "€ 77"
+    },
+    {
+      "available": true,
+      "id": "105915",
+      "category": "asporto",
+      "name": {
+        "it": "Scatola per hamburger in carta Kraft 98x95x66mm | 200 pezzi/scatola",
+        "es": "Caja de papel kraft para hamburguesas 98x95x66 mm | 200 unidades/caja",
+        "en": "Kraft paper box for hamburgers 98x95x66 mm | 200 units/box"
+      },
+      "desc": {
+        "it": "Scatola per hamburger in cartone kraft riciclabile , ideale per hamburger, panini e cibo da asporto . Resistente, pratica e adatta a cibi caldi o freddi, questa scatola per hamburger in carta ecologica è perfetta per ristoranti, food truck e servizi di consegna a domicilio che cercano soluzioni di imballaggio sostenibili e affidabili.",
+        "es": "Caja de cartón kraft reciclable para hamburguesas, ideal para hamburguesas, sándwiches y comida para llevar. Duradera, práctica y apta para alimentos fríos o calientes, esta caja de papel ecológica es perfecta para restaurantes, food trucks y servicios de reparto que buscan soluciones de embalaje sostenibles y fiables.",
+        "en": "Recyclable kraft cardboard box for burgers, ideal for burgers, sandwiches, and takeaway food. Durable, practical, and suitable for hot or cold foods, this eco-friendly paper box is perfect for restaurants, food trucks, and delivery services looking for sustainable and reliable packaging solutions."
+      },
+      "price": "€ 28",
+      "image": "/images/uploads/ham.png"
     }
   ]
 }
