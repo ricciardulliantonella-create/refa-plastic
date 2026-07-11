@@ -11,51 +11,6 @@
       }
     },
     {
-      "id": "Vaschette",
-      "icon": "🥡",
-      "label": {
-        "es": "BANDEJAS PP",
-        "it": "VASCHETTE IN PP",
-        "en": "PP TRAYS"
-      }
-    },
-    {
-      "id": "bolsas",
-      "icon": "🛍️",
-      "label": {
-        "es": "Bolsas",
-        "it": "Sacchetti",
-        "en": "Bags"
-      }
-    },
-    {
-      "id": "menaje",
-      "icon": "🍴",
-      "label": {
-        "es": "Menaje y cubiertos",
-        "it": "Stoviglie e posate",
-        "en": "Tableware & cutlery"
-      }
-    },
-    {
-      "id": "servilletas",
-      "icon": "🧻",
-      "label": {
-        "es": "Servilletas y papel",
-        "it": "Tovaglioli e carta",
-        "en": "Napkins & paper"
-      }
-    },
-    {
-      "id": "compostable",
-      "icon": "🌱",
-      "label": {
-        "es": "Línea compostable",
-        "it": "Linea compostabile",
-        "en": "Compostable line"
-      }
-    },
-    {
       "label": {
         "es": " VASO DE FIESTA",
         "it": " BICCHIERE DA FESTA",
