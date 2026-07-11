@@ -763,6 +763,23 @@
       },
       "image": "/images/uploads/for.png",
       "price": "€ 28"
+    },
+    {
+      "available": true,
+      "id": "106413",
+      "category": "COPERTO",
+      "name": {
+        "it": "Coltello in PS trasparente riciclabile | 900 pezzi/scatola",
+        "es": "Cuchillo de poliestireno transparente reciclable | 900 unidades/caja",
+        "en": "Recyclable transparent polystyrene knife | 900 units/box"
+      },
+      "desc": {
+        "it": "Il set di coltelli in PS trasparente  offre una soluzione resistente e riciclabile per il servizio di ristorazione in occasione di eventi, ristoranti e servizi di catering. Realizzato in polistirene (PS) di alta qualità, questo set di posate garantisce robustezza e comfort, mantenendo al contempo un aspetto elegante e professionale.",
+        "es": "El juego de cuchillos de poliestireno transparente ofrece una solución duradera y reciclable para el servicio de alimentos en eventos, restaurantes y empresas de catering. Fabricado con poliestireno (PS) de alta calidad, este juego de cubiertos garantiza robustez y comodidad, manteniendo una apariencia elegante y profesional.",
+        "en": "This clear polystyrene knife set offers a durable and recyclable solution for food service at events, restaurants, and catering companies. Made from high-quality polystyrene (PS), this cutlery set ensures sturdiness and comfort while maintaining a sleek and professional appearance."
+      },
+      "image": "/images/uploads/colt.png",
+      "price": "€ 28"
     }
   ]
 }
