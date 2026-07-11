@@ -49,6 +49,14 @@
         "it": "CANNUCCE",
         "en": "STRAWS"
       }
+    },
+    {
+      "id": "asporto",
+      "label": {
+        "es": "PARA LLEVAR",
+        "it": "PER ASPORTO",
+        "en": "TAKE AWAY"
+      }
     }
   ],
   "products": [
