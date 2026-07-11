@@ -881,6 +881,23 @@
       },
       "price": "€ 50",
       "image": "/images/uploads/ast.png"
+    },
+    {
+      "available": true,
+      "id": "103653",
+      "category": "COPERTO",
+      "name": {
+        "it": "Tovaglioli neri 33x33 cm a doppia punta | 1200 pezzi/scatola",
+        "es": "Servilletas negras de doble punta de 33x33 cm | 1200 unidades/caja",
+        "en": "Double-pointed black napkins, 33x33 cm | 1200 units/box"
+      },
+      "desc": {
+        "it": "Il tovagliolo nero a doppia punta da 33x33 cm offre una soluzione morbida, resistente ed ecologica per il servizio di ristorazione in bar, ristoranti e aziende di catering. Realizzato con un processo a doppia punta, questo tovagliolo offre una consistenza e una sensazione di alta qualità, ideali per arricchire l'esperienza culinaria sia in contesti informali che formali.",
+        "es": "La servilleta negra de doble punta de 33 x 33 cm ofrece una solución suave, duradera y ecológica para el servicio de alimentos en bares, restaurantes y empresas de catering. Fabricada con un proceso de doble punta, esta servilleta ofrece una textura y un tacto de alta calidad, ideales para realzar la experiencia gastronómica tanto en ambientes informales como formales.",
+        "en": "The 33 x 33 cm double-pointed black napkin offers a soft, durable, and eco-friendly solution for food service in bars, restaurants, and catering companies. Made with a double-pointed process, this napkin provides a high-quality texture and feel, ideal for enhancing the dining experience in both informal and formal settings."
+      },
+      "image": "/images/uploads/faz.n.png",
+      "price": "€ 35"
     }
   ]
 }
