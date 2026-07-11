@@ -949,6 +949,23 @@
       },
       "image": "/images/uploads/can.png",
       "price": "€ 120"
+    },
+    {
+      "available": true,
+      "category": "cannuccia",
+      "id": "10013",
+      "name": {
+        "it": "Cannucce riutilizzabili in PP nere - 7⌀ 150mm | 15.000 unità/scatola",
+        "es": "Pajitas reutilizables de PP negras - 7⌀ 150 mm | 15.000 unidades/caja",
+        "en": "Black PP reusable straws - 7⌀ 150 mm | 15,000 units/box"
+      },
+      "desc": {
+        "it": "Le cannucce nere in PP (polipropilene) sono una soluzione pratica, resistente e riutilizzabile per servire ogni tipo di bevanda in caffè, bar, ristoranti, hotel ed eventi. Realizzate in polipropilene di alta qualità per uso alimentare, sono note per la loro robustezza, leggerezza e durata. Il loro elegante colore nero conferisce un aspetto moderno e professionale, ideale per qualsiasi tipo di locale.",
+        "es": "Las pajitas negras de polipropileno (PP) son una solución práctica, duradera y reutilizable para servir todo tipo de bebidas en cafeterías, bares, restaurantes, hoteles y eventos. Fabricadas con polipropileno de alta calidad apto para uso alimentario, destacan por su resistencia, ligereza y durabilidad. Su elegante color negro les confiere un aspecto moderno y profesional, ideal para cualquier tipo de establecimiento.",
+        "en": "Black polypropylene (PP) straws are a practical, durable, and reusable solution for serving all types of beverages in cafes, bars, restaurants, hotels, and events. Made from high-quality, food-grade polypropylene, they are known for their strength, lightness, and durability. Their elegant black color gives them a modern and professional look, ideal for any type of establishment."
+      },
+      "image": "/images/uploads/cc.png",
+      "price": "€ 120"
     }
   ]
 }
